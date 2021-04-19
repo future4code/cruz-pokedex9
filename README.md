@@ -1,9 +1,9 @@
 # POKEDEX
 
 Nome dos integrantes: 
-- Pessoa 1
-- Pessoa 2
-- Pessoa 3
+- Fagner Alexandre Zulin
+- Guilherme Henrique Mota Alfredo
+- José Isaac Barreiro Campos
 
 Link do Surge: www.link.com.br
 
