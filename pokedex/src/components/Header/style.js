@@ -25,11 +25,11 @@ export const Nav = styled.nav`
 export const NavItem = styled.button`
     background-color: ${theme.blue};
     color: #fff;
-    font-size: 1.3em;
-    padding: 6px 8px;
+    font-size: 1.4em;
+    padding: 14px;
     font-weight: bold;
     text-transform: lowercase;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     border: none;
     transition: all .4s;
     cursor: pointer;
