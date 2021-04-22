@@ -5,7 +5,7 @@ Nome dos integrantes:
 - Guilherme Henrique Mota Alfredo
 - José Isaac Barreiro Campos
 
-Link do Surge: www.link.com.br
+Link do Surge: http://cruz9-pokedex.surge.sh
 
 O que funciona:
 - Item 1
