@@ -3,8 +3,9 @@ import {theme} from '../../constants/paletteColor'
 
 export const Main = styled.div`
     background-color: rgba(71, 186, 231, 0.60);
-    height: 35vh;
-    width: 15vw;
+    height: 300px;
+    width: 250px;
+    min-width: 250px;
     display: flex;
     align-items: center;
     flex-direction: column;
