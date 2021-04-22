@@ -39,6 +39,7 @@ export const CardButton = styled.button`
     height: 100%;
     border-bottom: none;
     border-color: #A4B0BE;
+    cursor: pointer;
     :first-child{
         border-bottom-left-radius: 10px; 
         border-left: none;
