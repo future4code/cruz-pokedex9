@@ -8,7 +8,7 @@ export default function PokedexPage() {
 
   return (
     <div>
-      <Header title="Pokédex" hasSecondButton closeButton />
+      <Header goTohome title="Pokédex" hasSecondButton closeButton />
       {states.pokedex.length > 0 &&
         states.pokedex.map((pokemon) => {
           return (
@@ -17,7 +17,7 @@ export default function PokedexPage() {
               id={pokemon.id}
               name={pokemon.name}
               photo={pokemon.details.photos.front}
-              textButton='Remover da pokédex'
+              textButton="Remover da pokédex"
               onClick={changes.removeToPokedex}
             />
           );
