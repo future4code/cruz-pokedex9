@@ -7,11 +7,11 @@ import { GlobalStateContext } from "../global/GlobalStateContext";
 export default function HomePage() {
   const { states, changes } = useContext(GlobalStateContext);
 
-  console.log(states.pokedex);
   return (
     <div>
       <Header title="Lista de pokémons" />
-      <Container>
+ 
+    <Container>
         {states.currentListPokemons.length > 0 &&
           states.currentListPokemons.map((pokemon) => {
             return (
@@ -26,6 +26,7 @@ export default function HomePage() {
             );
           })}
       </Container>
+
     </div>
   );
 }

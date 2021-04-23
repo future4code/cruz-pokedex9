@@ -9,7 +9,7 @@ export default function PokedexPage() {
 
   return (
     <div>
-      <Header title="Pokédex" hasSecondButton closeButton />
+      <Header goTohome title="Pokédex" hasSecondButton closeButton />
       <Container>
         {states.pokedex.length > 0 &&
           states.pokedex.map((pokemon) => {
